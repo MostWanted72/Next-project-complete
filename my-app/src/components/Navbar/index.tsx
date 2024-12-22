@@ -1,11 +1,11 @@
 import Link from "next/link";
 import React from "react";
 
-export default function Home() {
+export default function Navbar() {
   return (
-    <div>
-      <h1>Hello world</h1>
+    <nav>
+      <Link href="/">Home</Link>
       <Link href="/about">About</Link>
-    </div>
+    </nav>
   );
 }
